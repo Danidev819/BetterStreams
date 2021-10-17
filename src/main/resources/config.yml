@@ -1,0 +1,42 @@
+########################################
+#                                      #
+#   Plugin creado por Danipro_2007.    #
+#                                      #
+########################################
+#placeholders:
+# %msg% muestra el link. [Solo funciona en la linea de "Link"]
+# %player% muestra el nombre del jugador. [Solo funciona en la linea de "line"]
+# %seconds% muestra el cooldown restante. [Solo funciona en la linea de "cooldown-msg"]
+Messages:
+  #Links vinculados con youtube.com
+  #para desactivarlo dejalo en blanco y ya
+  #ejemplo: header: ''
+  Youtube:
+    header: '&8&m--+---------------------------------+--'
+    line: '&d&l%player% &6&lestá en directo en &4&lYou&f&lTube&6&l!'
+    Link: '          &6&lVe a verle en: &5&l%msg%'
+    footer: '&8&m--+---------------------------------+--'
+
+  #Links vinculados a twitch.tv
+  #para desactivarlo dejalo en blanco y ya
+  #ejemplo: header: ''
+  Twitch:
+    header: '&8&m--+---------------------------------+--'
+    line: '&d&l%player% &6lestá en directo en &5&lTwitch&6!'
+    Link: '          &6&lVe a verle en: &5&l%msg%'
+    footer: '&8&m--+---------------------------------+--'
+Utils:
+  #Cooldown (en segundos)
+  cooldown: 30
+  #Cooldown Message %seconds%
+  cooldown-msg: '&cPor favor espera &4%seconds% &csegundos'
+  #Si no tiene permisos:
+  no-permission: '&cPlugin creado por Danipro_2007'
+  #Si no es un link valido
+  linksonly: '&cPor favor usa solo links'
+  #Si no pone argumentos
+  no-args: '&fUso: &c/directo <link>'
+  #Cuando la config.yml se reinicia
+  reload: '&aConfiguracion reiniciada!'
+#NO CAMBIAR VERSION pls, es para cuando tengan que actualizarlo att: Danipro_2007
+Version: 1.0
