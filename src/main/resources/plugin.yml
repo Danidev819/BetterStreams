@@ -1,0 +1,9 @@
+name: BetterStreams
+main: me.danipro2007.betterstreams.Bungee.Main
+version: 1.0
+author: Danipro_2007
+commands:
+  bs-reload:
+    description: Reloads the plugin
+  directo:
+    description: Sends a broadcast
